@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>We Are The Champions!</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon-mic.ico">
+        
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/textarea-scrollers.css">
+        <link rel="stylesheet" href="./styles/placeholders.css">
+    </head>
+
+    <body>
+        <main id="main">
+            <section id="section-hero">
+                <img id="hero-logo" class="undraggable" 
+                src="./assets/freddie.png" alt="freddy-mercury-silhouette">
+                <h1 id="hero-title" class="section-title">We are the Champions</h1>
+            </section>
+            
+            <section id="section-endorsement-creator">
+                <textarea id="input-text" class="endorsement-input" name="endorsement-text" placeholder="Write your endorsement here"></textarea>
+                <div id="div-endorsement-sides">
+                    <input id="input-from" class="endorsement-input" 
+                       type="text" name="endorsement-from" placeholder="From">
+                    <input id="input-to" class="endorsement-input" 
+                       type="text" name="endorsement-to" placeholder="To">
+                </div>
+                <p id="creator-hint" class="hidden">Fill in all the input fields</p>
+                <button id="btn-publish">Publish</button>
+            </section>
+            
+            <section id="section-endorsement-viewer">
+                <h2 id="viewer-title" class="section-title">- Endorsements -</h2>
+                <div id="div-endorsements-supercontainer">
+                <!-- GENERATED WITH JS -->
+                </div>
+            </section>
+        </main>
+        
+        <script type="module" src="./code/index.js"></script>
+        
+    </body>
+</html>

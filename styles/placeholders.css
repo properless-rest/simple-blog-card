@@ -1,0 +1,9 @@
+
+:root {
+    --placeholder: #8F8F8F;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--placeholder);
+}
